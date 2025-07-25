@@ -1,6 +1,63 @@
-# GuessNumber
+# Angular Guess the Number Game 🎯
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+This is a fun and interactive number guessing game built using Angular 19. The app randomly selects a number between 1 and 100, and the user has 10 attempts to guess it. Helpful feedback is provided after every guess, and the game can be restarted anytime.
+
+---
+
+## 📸 Screenshot
+
+![Guess the Number Screenshot](public/screenshot.png)
+![Guess the Number Screenshot](public/win.png)
+![Guess the Number Screenshot](public/lose.png)
+
+---
+
+## 🔧 What I Built
+
+I developed a clean and responsive **Guess the Number** component using:
+
+- Angular CLI 19.1.8
+- Reactive state management
+- Two-way data binding with `[(ngModel)]`
+- Conditional UI rendering using `*ngIf`
+- Input validation and feedback logic
+- Basic SCSS styling with a game-themed layout
+
+---
+
+## 💡 Key Features
+
+- Secret number is randomly generated between 1 and 100
+- Users get 10 chances to guess correctly
+- Instant feedback: Too high / Too low
+- Game over message when all attempts are used
+- Victory message on correct guess
+- Option to reset the game and play again
+
+---
+
+## 🧱 Technologies Used
+
+- **Angular 19**
+- **TypeScript**
+- **Standalone Components**
+- **HTML & SCSS**
+- **FormsModule** for `ngModel`
+- **Conditional Rendering** using `*ngIf`
+- **Math.random()** and input validation
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+src/
+├── app/
+│   └── guess-the-number/
+│       ├── guess-the-number.component.ts       # Game logic and state
+│       ├── guess-the-number.component.html     # UI markup
+│       ├── guess-the-number.component.scss     # Component styling
+
 
 ## Development server
 
@@ -12,48 +69,3 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
