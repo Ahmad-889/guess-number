@@ -4,14 +4,6 @@ This is a fun and interactive number guessing game built using Angular 19. The a
 
 ---
 
-## 📸 Screenshot
-
-![Guess the Number Screenshot](public/screenshot.png)
-![Guess the Number Screenshot](public/win.png)
-![Guess the Number Screenshot](public/lose.png)
-
----
-
 ## 🔧 What I Built
 
 I developed a clean and responsive **Guess the Number** component using:
@@ -59,6 +51,15 @@ src/
 │       ├── guess-the-number.component.scss     # Component styling
 
 
+```
+
+## 📸 Screenshot
+
+![Guess the Number Screenshot](public/screenshot.png)
+![Guess the Number Screenshot](public/win.png)
+![Guess the Number Screenshot](public/lose.png)
+
+---
 ## Development server
 
 To start a local development server, run:
